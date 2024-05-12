@@ -38,11 +38,14 @@ product.push({
     'Tên': nameProduct,
     'Giá': price,
 })
+
 console.log(product);
-// function show() {
-//     console.log('Danh sách');
-//     for (let i = 0; i < product.length; i++) {
-//         console.log();
-        
-//     }
-// }
+function show() {
+    console.log('Danh sách');
+    for (let i = 0; i < product.length; i++) {
+        console.log('Tên sản phẩm thứ' + (i+1)+ ':' +product[i].Tên);
+        console.log('Giá:' +product[i].Giá);
+        console.log('Loại sản phẩm:'+product[i].Loại)
+        console.log('');
+    }
+}
