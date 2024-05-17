@@ -26,6 +26,7 @@ let student = [
     }
 ]
 
+// cau 1
 let ageStudent = prompt("Độ tuổi cần tìm?")
 
 function checkAge(age) {
@@ -37,3 +38,18 @@ function checkAge(age) {
     }
 }
 checkAge(ageStudent)
+
+// cau 2
+// let studentHobbies = prompt("Sở thích cần tìm?")
+
+// function checkHobbies(hobbies) {
+//     for (let i = 0; i < student.length; i++) {
+//         if (student[i].hobbies ==hobbies) {
+//             console.log(student[i].name.hobbies)
+//         }
+
+//     }
+// }
+// checkHobbies(studentHobbies)
+
+// cau 3
