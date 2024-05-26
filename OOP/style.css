@@ -1,0 +1,29 @@
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+.item{
+    text-align: center;
+    padding: 20px;
+}
+@media (width < 1080px){
+    .content{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media (width < 900px){
+    .content{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (width < 800px){
+    .content{
+        grid-template-columns: auto auto ;
+    }
+}
+@media (width < 700px){
+    .content{
+        grid-template-columns: auto;
+    }
+}
